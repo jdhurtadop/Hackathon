@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.page {
+    position: relative;
+    /* height: 100vh; */
+}
+
+.page__waves_top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.page__waves_bootom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.landing {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #ffffff8e;
+    border-radius: 20px;
+    margin: 1rem auto 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: .9rem;
+}
+
+.container__que {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    border-right: 1px solid #c7db46;
+}
+
+.container__cuando {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    border-right: 1px solid #c7db46;
+}
+
+.container__donde {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    border-left: 1px solid #c7db46;
+}
+
+.container__objetivo {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.container__premios {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    /* border-right: 1px solid #c7db46; */
+}
+
+.container__patrocinadores {
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.container__form {
+    background-color: #c7db469f;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 0 0 20px;
+}
+
+form {
+    background-color: #ffffff00;
+    width: 50%;
+    padding: 10px;
+}
+
+.error{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(238, 60, 60);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+form input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.292);
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1B1F3B;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+
+.cont-img {
+    width: 70%;
+}
+
+.cont-img img {
+    width: 100%;
+}
+
+.container__patrocinadores__img {
+    width: 100%;
+}
+
+.container__patrocinadores__img img {
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .container__que {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #c7db46;
+    }
+
+    .container__cuando {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #c7db46;
+    }
+
+    .container__donde {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #c7db46;
+    }
+
+    .container__objetivo {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #c7db46;
+    }
+
+    .container__premios {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #c7db46;
+    }
+
+    .container__patrocinadores {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        background: #ffffff00;
+    }
+
+}
